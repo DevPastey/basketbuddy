@@ -4,7 +4,7 @@ import { Text, View, StyleSheet } from "react-native";
 export default function Index() {
   return (
     <View style={styles.container}>
-      <Text>Edit src/app/index.tsx to edit this screen. 123</Text>
+      <Text className=" text-pink-600 " >Edit src/app/index.tsx to edit this screen. 123</Text>
     </View>
   );
 }
@@ -15,4 +15,4 @@ const styles = StyleSheet.create({
     alignItems: "center",
     justifyContent: "center",
   },
-});
+}); 
